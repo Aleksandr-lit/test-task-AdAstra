@@ -7906,6 +7906,11 @@ header.header:after {
     margin: 7px 0;
     position: relative;
 }
+div.main-bar #header-menu a.link {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Source Sans Pro" !important;
+}
 #logo-rainews,
 #menu-open,
 #search-open,
@@ -8051,6 +8056,8 @@ header.header:after {
     color: #212335;
 }
 .secondary-bar__inner {
+    display: flex;
+    align-items: center;
     position: relative;
     border: 0;
     height: 100%;
@@ -8071,7 +8078,7 @@ header.header:after {
     padding-right: 20px;
     width: 100px;
     position: absolute;
-    top: 0;
+    top: 7px;
     left: 0;
     white-space: nowrap;
 }
@@ -8091,6 +8098,10 @@ header.header:after {
     margin: 0;
     line-height: 18px;
     width: max-content;
+}
+.topics__nav__list__item a.link {
+    font-family: "Source Sans Pro" !important;
+    font-size: 13px;
 }
 .secondary-bar .topics__nav__list.visible-list .topics__nav__list__item {
     display: table-cell;
@@ -8266,7 +8277,7 @@ header.header:after {
         left: 190px;
     }
     .secondary-bar__inner .social {
-        top: 12px;
+        top: 13px;
     }
 }
 @media only screen and (min-width: 1296px) {
@@ -9696,6 +9707,7 @@ html body[data-layout="homepage"] main {
     padding: 0 12px;
 }
 .prefooter__title {
+    font-family: "Source Sans Pro" !important;
     display: block;
     font-size: 18px;
     font-weight: 400;
@@ -9738,6 +9750,9 @@ html body[data-layout="homepage"] main {
     overflow: visible;
     margin: 0;
     padding: 0;
+}
+ul.prefooter__list li.prefooter__list__item a.link {
+    font-family: "Source Sans Pro" !important;
 }
 body.tgr-layout .prefooter .cell-footerfirst {
     width: 83.33333%;

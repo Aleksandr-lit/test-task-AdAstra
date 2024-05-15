@@ -62,11 +62,21 @@ p {
 }
 
 header {
-    margin-top: 210px;
+    margin-top: 190px;
     position: relative;
     width: 100%;
     background-color: rgb(255, 255, 255);
     padding: 15px 0px;
+}
+@media (max-width: 1296px) {
+    header {
+        margin-top: 160px;
+    }
+}
+@media (max-width: 1024px) {
+    header {
+        margin-top: 140px;
+    }
 }
 
 .header_line_2 {
